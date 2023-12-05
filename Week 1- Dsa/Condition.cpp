@@ -1,7 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     // // declare a integer type variable
     // int age;
     // // print Enter the Score
@@ -11,20 +12,19 @@ int main(){
     // // if condition
     // if(age >= 18){
     //     cout<<"I Can Vote"<<endl;
-    // } 
+    // }
     // else{
-    //     cout<<"Cannot Vote"<<endl; 
-    // }  
-
+    //     cout<<"Cannot Vote"<<endl;
+    // }
 
     /*if else if condition*/
     // int marks;
     // cout<<"Enter the Marks: ";
     // cin>> marks;
-     
+
     // if(marks >= 90){
     //     cout<<"A grade";
-    // } 
+    // }
     // else if(marks >= 80){
     //     cout<<"B grade";
     // }
@@ -41,7 +41,6 @@ int main(){
     //     cout<<"F grade";
     // }
 
-
     // int bronum;
     // cout<<"Enter bronum: ";
     // cin>> bronum;
@@ -52,7 +51,4 @@ int main(){
     // else {
     //     cout<< "Baat nahi banaygi";
     // }
-
-    
-
 }

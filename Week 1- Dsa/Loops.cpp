@@ -1,12 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    
+int main()
+{
+
     // for(int i = 0; i<5; i++){
     //     cout<<"Saurabh Gawali" <<endl ;
     // }
-    
+
     // for(int i = 0; i<5; i++){
     //     cout<< i << endl;
     // }
@@ -45,7 +46,7 @@ int main(){
     //         cout<< i << endl;
     //         i++;
     //     }
-       
+
     // }
 
     // *******imp part*****
@@ -54,10 +55,9 @@ int main(){
     //     cout<<"Saurabh Gawali";
     // }
 
-     // *******imp part*****
+    // *******imp part*****
     // int n;
     // if(cin>>n){
     //     cout<<"Saurabh Gawali";
     // }
-
 }
