@@ -62,6 +62,7 @@ int main()
     //         // remaining middle rows
     //         // first star
     //         cout << "* ";
+    //         // Total no of spaces
     //         for (int i = 0; i < colCount - 2; i++)
     //         {
     //             cout << "  ";
