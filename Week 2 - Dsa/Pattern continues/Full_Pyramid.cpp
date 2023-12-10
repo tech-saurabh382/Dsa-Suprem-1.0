@@ -17,9 +17,21 @@ int main()
         // star print
         for (int col = 0; col < row + 1; col = col + 1)
         {
-            cout << "* ";
+            cout << "* "; // -> har star ke baad space hai 
         }
 
         cout << endl;
     }
 }
+
+/*
+
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+* * * * * *
+
+
+*/

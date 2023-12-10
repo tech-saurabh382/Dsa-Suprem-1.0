@@ -19,8 +19,8 @@ int main()
         for (int col = 0; col < 2 * row + 1; col = col + 1)
         {
             // if first character or last character
-            if (col == 0 || col == 2 * row)
-            {
+            if (col == 0 || col == 2 * row) // (2 * row + 1) se chotta no konsa no hoga ?  
+            {                               // Ans - 2 * row
                 cout << "*";
             }
             else

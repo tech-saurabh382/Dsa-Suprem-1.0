@@ -15,7 +15,7 @@ int main()
         // star print
         for (int col = 0; col < n - row; col = col + 1)
         {
-            cout << "* ";
+            cout << "* "; // -> har star ke baad space hai 
         }
         cout << endl;
     }
