@@ -11,7 +11,7 @@ int main()
         for (int col = 0; col < row + 1; col = col + 1)
         {
             cout << row + 1;
-            if (col != row)
+            if (col != row) // -> if not a last character
             {
                 cout << "*";
             }
