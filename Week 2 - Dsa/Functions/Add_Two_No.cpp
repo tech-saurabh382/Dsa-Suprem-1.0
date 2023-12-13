@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//function decelaration
+// function decelaration
 int add(int x, int y)
 
 int main()

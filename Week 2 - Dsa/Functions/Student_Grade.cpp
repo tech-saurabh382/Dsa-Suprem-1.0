@@ -24,13 +24,25 @@ char getGrade(int marks)
     //     return 'E';
     // }
 
-    switch(marks/10){
-        case 10: return 'A'; break;
-        case 9: return 'A'; break;
-        case 8: return 'B'; break;
-        case 7: return 'C'; break;
-        case 6: return 'D'; break;
-        default: return 'E';
+    switch (marks / 10)
+    {
+    case 10:
+        return 'A';
+        break;
+    case 9:
+        return 'A';
+        break;
+    case 8:
+        return 'B';
+        break;
+    case 7:
+        return 'C';
+        break;
+    case 6:
+        return 'D';
+        break;
+    default:
+        return 'E';
     }
 }
 
@@ -43,11 +55,11 @@ int main()
     // char finalGrade = getGrade(marks);
     // cout << finalGrade << endl;
 
-    for(int i =0;i<=100;i++){
+    for (int i = 0; i <= 100; i++)
+    {
         char ans = getGrade(i);
-        cout<<"Grade for marks = " << i <<" is "<<ans<<endl;
+        cout << "Grade for marks = " << i << " is " << ans << endl;
     }
-
 
     return 0;
 }

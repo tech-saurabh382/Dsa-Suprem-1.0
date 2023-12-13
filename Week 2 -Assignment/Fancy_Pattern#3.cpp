@@ -16,17 +16,17 @@ int main()
         // Inner loop -> Colum Count
         for (int j = 0; j <= cond; j++)
         {
-            if (j == 0 || j == cond)
-            {
-                cout << "*";
-            }
+            // if (j == 0 || j == cond)
+            // {
+            //     cout << "*";
+            // }
             if (j <= cond / 2)
             {
-                cout << j + 1;
+                cout << j + 1 << " ";
             }
             else
             {
-                cout << cond - j + 1;
+                cout << cond - j + 1 << " ";
             }
         }
         cout << endl;
@@ -34,3 +34,15 @@ int main()
 
     return 0;
 }
+
+/*
+
+1
+1 2 1
+1 2 3 2 1
+1 2 1
+1
+
+
+
+*/

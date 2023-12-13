@@ -127,7 +127,7 @@ using namespace std;
 // }
 
 // 6. Print Numeric Hollow Inverted Half Pyramid (Click the hyper link to understand the output)
-int main(){
+void main(){
     int n;
     cin>>n;
     for(int i=0;i<n;++i){
