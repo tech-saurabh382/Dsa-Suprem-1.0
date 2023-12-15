@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    //create an array
+    // create an array
     int digit[] = {8, 2, 3, 7};
 
     int ans = 0;
