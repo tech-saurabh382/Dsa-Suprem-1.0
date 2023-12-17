@@ -6,7 +6,7 @@ int main()
 {
 
     vector<int> arr{0, 1, 1, 0, 1, 0, 1, 0, 1, 1};
-    int start = 0; // -> start position pr zero chaiye
+    int start = 0;            // -> start position pr zero chaiye
     int end = arr.size() - 1; // -> end position pr one chaiye
     int i = 0;
 

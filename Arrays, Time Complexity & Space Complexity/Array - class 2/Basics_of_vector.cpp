@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    // creaye vector
+    // create vector
     vector<int> arr;
 
     // int ans = (sizeof(arr) / sizeof(int)); // -> Compiler dependent staff
