@@ -59,10 +59,10 @@ int main()
     }
     cout << endl;
 
-    cout<<"Vector crr is Empty or not " << crr.empty() << endl;
+    cout << "Vector crr is Empty or not " << crr.empty() << endl;
 
     vector<int> drr;
-    cout<<"Vector drr is Empty or not " << drr.empty() << endl;
+    cout << "Vector drr is Empty or not " << drr.empty() << endl;
 
     return 0;
 }

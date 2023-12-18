@@ -30,7 +30,7 @@ int main()
 
     // int n;
     // cin >> n;
-    // int arr[n]; -> BAD PRACTICE
+    // int arr[n]; //-> BAD PRACTICE
 
     // static array
     // int arr[1000];

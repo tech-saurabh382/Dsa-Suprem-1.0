@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {2,4,6,1,3,7,9,12,56,42,21};
+    int arr[] = {2, 4, 6, 1, 3, 7, 9, 12, 56, 42, 21};
     int size = 11;
     // initaize the maxi variable with the minimum possible integer value
     int maxi = INT_MIN;

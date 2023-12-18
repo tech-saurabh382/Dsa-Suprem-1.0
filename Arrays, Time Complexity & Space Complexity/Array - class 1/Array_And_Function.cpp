@@ -2,7 +2,7 @@
 using namespace std;
 
 // If we pass an array in function Then its reference(address) is pass to that function
-// Which means pass by reference concept is apply 
+// Which means pass by reference concept is apply
 
 void printArray(int arr[], int size)
 {
