@@ -10,16 +10,16 @@ int findPivot(vector<int> arr)
 
     while (s <= e)
     {
-        if (arr[mid] > arr[mid + 1])
+        if (mid + 1 < arr.size() && arr[mid] > arr[mid + 1])
         {
             return mid;
         }
-        if (arr[mid - 1] > arr[mid])
+        if (mid - 1 >= 0 && arr[mid - 1] > arr[mid])
         {
             return mid - 1;
         }
 
-        if (arr[s] > arr[mid])
+        if (arr[s] >= arr[mid])
         {
             e = mid - 1;
         }
@@ -38,7 +38,7 @@ int main()
     vector<int> arr{3, 4, 5, 6, 7, 1, 2};
     int ans = findPivot(arr);
 
-    cout << "Pivot Element is " << arr[ans] << endl;
+    cout << "Index of Pivot Element is " << ans << endl; // element print karnay k liye arr[ans] use karo
 
     return 0;
 }
