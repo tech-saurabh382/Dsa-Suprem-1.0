@@ -6,7 +6,8 @@ int main()
 {
 
     // T.c -> O(n^2)
-    // S.c -> O(1)
+
+    // Selection Sort is generally use in case of if the array size is small
 
     vector<int> arr{5, 4, 3, 2, 1};
 
