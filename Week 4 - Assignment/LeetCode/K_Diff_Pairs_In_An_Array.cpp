@@ -37,6 +37,10 @@
 
 // ******** Solution ********
 
+// Point To Remember -> Syntax of add value in set data structure
+
+// T.c -> O(n logn)
+
 class Solution
 {
 public:
@@ -84,22 +88,27 @@ public:
 
         // Two Pointer Approach
 
-        // sort(nums.begin(),nums.end());
-        // set<pair<int,int>> ans;
-        // int i =0, j =1;
-        // while( j < nums.size()){
+        // sort(nums.begin(), nums.end());
+        // set<pair<int, int>> ans;
+        // int i = 0, j = 1;
+        // while (j < nums.size())
+        // {
         //     int diff = nums[j] - nums[i];
-        //     if(diff == k){
-        //         ans.insert({nums[i],nums[j]});
-        //         i++,j++;
+        //     if (diff == k)
+        //     {
+        //         ans.insert({nums[i], nums[j]});
+        //         i++, j++;
         //     }
-        //     else if(diff > k){
+        //     else if (diff > k)
+        //     {
         //         i++;
         //     }
-        //     else{
+        //     else
+        //     {
         //         j++;
         //     }
-        //     if(i==j) j++;
+        //     if (i == j)
+        //         j++;
         // }
         // return ans.size();
     }
