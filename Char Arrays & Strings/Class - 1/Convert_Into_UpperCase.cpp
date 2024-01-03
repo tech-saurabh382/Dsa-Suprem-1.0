@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// T.c -> O(n)
+// S.c -> O(1)
+
 int getLength(char name[])
 {
     int length = 0;

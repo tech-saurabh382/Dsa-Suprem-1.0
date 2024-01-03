@@ -2,6 +2,9 @@
 #include <string.h>
 using namespace std;
 
+// T.c -> O(n)
+// S.c -> O(1)
+
 void replaceSpaces(char sentence[])
 {
     int i = 0;

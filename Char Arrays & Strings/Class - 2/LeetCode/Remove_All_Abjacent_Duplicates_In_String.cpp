@@ -27,6 +27,9 @@
 
 // ****** Solution *******
 
+// T.c -> O(n)
+// S.c -> O(n)
+
 class Solution
 {
 public:

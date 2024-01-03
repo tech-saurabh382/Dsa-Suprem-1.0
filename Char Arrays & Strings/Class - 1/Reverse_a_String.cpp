@@ -15,6 +15,9 @@ int getLength(char name[])
     return length;
 }
 
+// T.c -> O(n)
+// S.c -> O(1)
+
 void reverseCharArray(char arr[])
 {
     int i = 0;

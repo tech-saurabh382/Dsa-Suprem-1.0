@@ -4,7 +4,6 @@ using namespace std;
 
 bool compareString(string a, string b)
 {
-
     if (a.length() != b.length())
     {
         return false;
@@ -44,7 +43,7 @@ int main()
 
     // cout << str << endl;
 
-    // cout << str.substr(0, 6) << endl;
+    // cout << str.substr(0, 6) << endl; // -> sub string return karta hai
 
     // cout << str << endl;
 

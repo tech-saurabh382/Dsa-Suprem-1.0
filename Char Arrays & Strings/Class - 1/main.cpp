@@ -39,7 +39,5 @@ int main()
 
     // cout << arr;
 
-    
-
-    return 0;
+        return 0;
 }
