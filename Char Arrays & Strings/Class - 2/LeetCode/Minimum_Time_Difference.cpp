@@ -26,7 +26,7 @@ class Solution
 public:
     int findMinDifference(vector<string> &timePoints)
     {
-        // step1: convert time string into minutes integer
+        // step1: convert time string into minutes integer value
         vector<int> minutes;
 
         for (int i = 0; i < timePoints.size(); i++)
@@ -42,7 +42,7 @@ public:
         // step 2: sort
         sort(minutes.begin(), minutes.end());
 
-        // step 3: difference and minimum difference
+        // step 3: difference and Calculate minimum difference
         int mini = INT_MAX;
         int n = minutes.size();
 
@@ -53,7 +53,9 @@ public:
         }
 
         // something missing - THIS IS THE GAME
-        int lastDiff = (minutes[0] + 1440 - minutes[n - 1]);
+        int lastDiff1 = (minutes[0] + 1440 - minutes[n - 1]);
+        int lastDiff2 = minutes[n - 1] - minutes[0];
+        int lastDiff = min(lastDiff1, lastDiff2);
         mini = min(mini, lastDiff);
 
         return mini;
