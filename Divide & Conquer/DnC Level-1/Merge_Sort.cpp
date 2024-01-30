@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// T.c -> O(nlogn)
+
 void merge(int *arr, int s, int e)
 {
     int mid = (s + e) / 2;
