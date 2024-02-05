@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// T.c -> O(nlogn)
+// Best Case and Average Case T.c -> O(nlogn)
 // worst T.c -> O(n^2) (in case of reverse sorted)
 
 int partition(int arr[], int s, int e)
