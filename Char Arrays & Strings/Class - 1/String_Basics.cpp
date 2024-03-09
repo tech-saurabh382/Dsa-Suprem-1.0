@@ -30,7 +30,7 @@ int main()
     // // input string
     // cin >> str;
     // // getline(cin, str);
-    // // pinting
+    // // printing
     // cout << str << endl;
 
     // cout << "Length is: " << str.length() << endl;
